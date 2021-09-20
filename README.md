@@ -2,3 +2,4 @@
 Oblig1 oppgave b
 hallo små venner
 fdewfuhvsadfhbiufabhjad
+jhjjgiugvh
