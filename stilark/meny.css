@@ -1,7 +1,15 @@
+#main {
+    overflow: auto;
+    padding-bottom: 150px;
+}
 table {
     width: 50%;
     height: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
+    padding: 50px;
+}
+div table, div td, div tr {
+    border: 1px black solid;
 }
