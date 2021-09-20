@@ -1,15 +1,32 @@
 #main {
     overflow: auto;
-    padding-bottom: 150px;
+    padding-bottom: 170px;
 }
 table {
     width: 50%;
     height: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
-    padding: 50px;
+    margin-top: 40px;
+    padding: 20px;
 }
 div table, div td, div tr {
     border: 1px black solid;
+}
+div th {
+    font-size: 25px;
+}
+div td {
+    position: relative;
+}
+div td:hover {
+    background-color: rgba(194, 75, 39, 0.2);
+}
+.retter {
+    font-size: 20px;
+}
+.pris {
+    position: absolute;
+    top: 45%;
+    left: 90%;
 }
