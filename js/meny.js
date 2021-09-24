@@ -2,6 +2,7 @@ document.getElementById("label_foretter").addEventListener("click", visForetter)
 document.getElementById("label_hovedretter").addEventListener("click", visHovedretter);
 document.getElementById("label_dessert").addEventListener("click", visDessert);
 document.getElementById("visAlleMenyene").addEventListener("keydown", visAlleMenyene);  
+document.getElementById("visAlleMenyene").addEventListener("click", visAlleMenyene);  
 
 function visForetter() {
     document.getElementById("hovedretter").style.display = "none";
