@@ -2,25 +2,53 @@
     overflow: auto;
     padding-bottom: 170px;
 }
+#se_meny {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    color:#cf0e0e;
+    font-size: 3rem;
+}
+#meny_velger {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+.menyer {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 table {
-    width: 50%;
-    height: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    padding: 20px;
 }
-div table, div td, div tr {
+div td, div tr {
     border: 1px black solid;
 }
+div table {
+    display: none;
+    border-spacing: 10px;
+}
+#foretter {
+    display: table;
+}
 div th {
-    font-size: 25px;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    color: rgb(0, 140, 69);
 }
 div td {
     position: relative;
+    padding: 20px;
 }
 div td:hover {
-    background-color: rgba(194, 75, 39, 0.2);
+    background-color: rgba(194, 75, 39, 0.1);
 }
 .retter {
     font-size: 20px;
