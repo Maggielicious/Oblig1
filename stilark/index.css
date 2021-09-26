@@ -1,9 +1,8 @@
 body{
     background-color: black;
 }
-#logo{
-    position: relative;
-    top: 100px;
+.forside {
+    margin-top: 10%;
 }
 #velkommen{
     margin: auto;
