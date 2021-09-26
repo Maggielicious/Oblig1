@@ -11,3 +11,22 @@ body{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 5rem;
 }
+.bakgrunn{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../bilder/bakgrunn.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+    filter: opacity(50%);
+}
+.forside img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
