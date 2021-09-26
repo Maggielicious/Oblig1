@@ -1,7 +1,1 @@
-# Oblig1
-Oblig1 oppgave b
-hallo små venner
-test
-test test test
-
-test test test test test test test
+https://github.com/Maggielicious/Oblig1.git
